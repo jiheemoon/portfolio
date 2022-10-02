@@ -27,7 +27,7 @@ $(document).ready(function(){
 
 // protfolio filters
 $(window).on("load", function() {
-    var t = $(".portfolio-container");
+    var t = $(".projects-container");
     t.isotope({
         filter: ".new",
         animationOptions: {

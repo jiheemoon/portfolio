@@ -11157,7 +11157,7 @@ p {
   color: #F85C70;
 }
 
-.portfolio .filters {
+.projects .filters {
   border-bottom: 2px solid #dee2e6;
   border-radius: 0;
   padding-bottom: 4px;
@@ -11173,7 +11173,7 @@ p {
           justify-content: space-between;
 }
 
-.portfolio .filters a {
+.projects .filters a {
   -webkit-flex-basis: 0;
       -ms-flex-preferred-size: 0;
           flex-basis: 0;
@@ -11187,25 +11187,25 @@ p {
   -webkit-transition: 0.3s;
 }
 
-.portfolio .filters a:first-child {
+.projects .filters a:first-child {
   margin-left: 0;
 }
 
-.portfolio .filters a:last-child {
+.projects .filters a:last-child {
   margin-right: 0;
 }
 
-.portfolio .filters a:hover {
+.projects .filters a:hover {
   opacity: .9;
 }
 
-.portfolio .filters a.active {
+.projects .filters a.active {
   opacity: 1;
   background: #F85C70;
   color: #fff;
 }
 
-.portfolio .portfolio-container .portfolio-item {
+.projects .projects-container .projects-item {
   position: relative;
   padding-left: 0;
   padding-right: 0;
@@ -11216,7 +11216,7 @@ p {
           backface-visibility: hidden;
 }
 
-.portfolio .portfolio-container .portfolio-item .content-holder {
+.projects .projects-container .projects-item .content-holder {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -11247,18 +11247,18 @@ p {
   -webkit-transition: 0.5s;
 }
 
-.portfolio .portfolio-container .portfolio-item .content-holder .title {
+.projects .projects-container .projects-item .content-holder .title {
   font-size: 22px;
   font-weight: 600;
 }
 
-.portfolio .portfolio-container .portfolio-item .content-holder .subtitle {
+.projects .projects-container .projects-item .content-holder .subtitle {
   font-weight: 500;
   opacity: 1;
   color: #fff;
 }
 
-.portfolio .portfolio-container .portfolio-item:hover .content-holder {
+.projects .projects-container .projects-item:hover .content-holder {
   opacity: 1;
   visibility: visible;
 }
