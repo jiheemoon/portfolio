@@ -29,7 +29,7 @@ $(document).ready(function(){
 $(window).on("load", function() {
     var t = $(".projects-container");
     t.isotope({
-        filter: ".new",
+        filter: ".all",
         animationOptions: {
             duration: 750,
             easing: "linear",
